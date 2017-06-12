@@ -1,0 +1,47 @@
+<!doctype html>
+<html ng-app="modal.demo">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-sanitize.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="js/modal-1.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- zone HTML parente -->
+    <div ng-controller="MainCtrl" class="modal-demo">
+      <!-- html block -->
+      <div ng-show="items.length > 0">
+        <div>Liste des items :</div>
+        <ul>
+            <li ng-repeat="item in items">
+                <!-- open selected item. -->
+                <a ng-click="$event.preventDefault(); open(item);">{{item}}</a>
+            </li>
+            <div>
+                selectedItem  = {{selectedItem}}
+            </div>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-default" ng-click="$ctrl.open()"> item</button
+    </div>
+
+    <!-- code de la modal -->
+    <script type="text/ng-template" id="selectedItem.html">
+        <div class="modal-header">
+            <h3 class="modal-title" id="modal-title">I'm a modal!</h3>
+        </div>
+        <div class="modal-body" id="modal-body">
+            Selected item: <b>{{selectedItem}}</b>
+            <br/>
+            items = {{items}}
+        </div>
+        <div class="modal-footer">
+          footer
+        </div>
+    </script>
+
+  </body>
+  </html>

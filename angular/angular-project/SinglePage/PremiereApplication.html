@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
+    </head>
+    <body ng-app="MaPremiereApp" ng-controller="MonControleur">
+		<h1>Ma premi&egrave;re application</h1>
+		<p>Bonjour {{user.name}} {{user.lastName}} !</p>
+    <script type="text/javascript">
+      function MonControleur($scope) {
+				$scope.user = { name: "Gildas", lastName: "Rouault" };
+			}
+
+			angular.module("MaPremiereApp", [])
+        .controller("MonControleur", MonControleur);
+
+    </script>
+    </body>
+</html>
