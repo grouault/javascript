@@ -1,0 +1,7 @@
+# configuer le server
+npm init
+
+# Initialiser le fichier db.json
+
+# lancer le server
+json-server --watch db.json

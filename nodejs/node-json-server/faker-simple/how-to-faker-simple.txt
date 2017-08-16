@@ -1,0 +1,7 @@
+# configurer le server.
+npm init
+npm install -g json-server
+npm install faker
+
+# lancer le fichier de fake.
+json-server generate.js
