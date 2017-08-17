@@ -1,0 +1,3 @@
+/* Express */
+Express est un micro-framework qui présente les fonctonnalité d'un middleware, c'est à dir en ce cas, la partie qui
+va liée une route à une fonction appelée pour cette route spécifique.
