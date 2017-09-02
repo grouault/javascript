@@ -19,6 +19,8 @@ router.get('/all', handlerPeople.getAll);
 /* GetById */
 router.get('/:id', handlerPeople.getById);
 
+router.post('/', handlerPeople.add);
+
 module.exports = router;
 
 

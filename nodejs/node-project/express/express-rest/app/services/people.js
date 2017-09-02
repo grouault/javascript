@@ -22,7 +22,6 @@ var init = function() {
             PEOPLES.push(newPeople);
         } while (i < 5);
     }
-    return PEOPLES;
 };
 
 /**
@@ -30,7 +29,8 @@ var init = function() {
  * @returns {Array}
  */
 var getAll = function() {
-  return init();
+    init()
+    return PEOPLES;
 };
 
 var getById = function (id) {
@@ -39,5 +39,18 @@ var getById = function (id) {
     return PEOPLES[id - 1];
 };
 
+var add = function (person) {
+    init();
+    var lastIndex = PEOPLES.length;
+    var newPeople = {
+        id: lastIndex,
+        name: person.name,
+        avatar: faker.internet.avatar()
+    };
+    PEOPLES.push(newPeople);
+    return PEOPLES;
+};
+
 exports.getAll =  getAll;
 exports.getById = getById;
+exports.add = add;

@@ -1,0 +1,41 @@
+# global scope
+Par défaut, tout variable ou fonction déclarée dans un fichier de script, a une portée globale.
+==> problématique si deux fichiers différents déclarent la même variable ou la même fonction.
+==> Voir exemple : browser-script
+
+Idée : Exécutée le code du fichier dans une fonction anonyme.
+Limite : Valable pour le code qui n'est pas attendu à l'extérieur ; mais si on a besoin du code à l'extérieur.
+==> Comment faire, si on veut exporter le code?
+On l'exporte (met dans le contexte global) avec this. This doit faire référence au context global.
+==> voir exemple : browser-logger
+C'est une manière de partager notre librairie ;
+Mais si une autre personne à une librairie qui expose le même Logger ==> ??
+
+==> Node et Require :
+Site :
+- https://www.sitepoint.com/understanding-module-exports-exports-node-js/
+
+Node utilise son propre mécanisme pour envelopper / encapsuler les scripts.
+C'est pour cela que require est nécessaire pour récupérer les scripts.
+Mécanisme  de Node:
+Le fichier initial est enveloppée dans une fonction anonyme : 'require', 'exports' et 'module.exports' sont passés
+en paramètre de la fonction anonyme ==> exports et module.exports référence le même objet.
+==> Dans le fichier on a module.exports = exports = { ... }
+Pour exposer notre fichier avec Node, il faut utiliser la reférence 'module.exports'.
+Elle pointe vers l'objet retourné.
+- soit on créer un objet et l'on le référence par 'module.exports'
+- soit on utilise l'objet par défaut et on l'enrichit de la manière suivante :
+---- module.exports.objet1 = {}
+---- ou exports.objets1 = {}
+Cet objet sera récupéré par 'require'.
+En effet, cet export est disponible dans un objet.
+Appliquer 'require' sur un fichier, permet de récupérer la valeur de module.exports, qui est la valeur de retour de la
+fonction.
+
+# NPM
+- gestionnaire de paquets
+- npm install --save : installe et sauvegarde de la dépendance
+==> nécessaire pour gérer un projet d'équipe qui doit être installé sur plusieurs machines.
+- npm permet de gérér le lancement de certains scripts.
+
+

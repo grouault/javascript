@@ -1,0 +1,3 @@
+# TODO
+Faire une simulation de Require.
+==> commencer par faire l'export d'objet à mettre dans le scope global et récupéré dans un autre fichier de script

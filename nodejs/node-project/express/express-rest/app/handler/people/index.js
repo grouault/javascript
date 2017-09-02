@@ -26,6 +26,13 @@ module.exports = function(){
         getById : function (req, resp) {
             var id = req.params.id;
             resp.json(peopleService.getById(id));
+        },
+
+        add: function (req, resp) {
+            console.log('--add new people--');
+            var people = req.body;
+            console.log('people = ', people);
+            resp.json(peopleService.add(people));
         }
 
     };
