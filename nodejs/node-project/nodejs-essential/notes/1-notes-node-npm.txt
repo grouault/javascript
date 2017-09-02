@@ -31,6 +31,7 @@ Cet objet sera récupéré par 'require'.
 En effet, cet export est disponible dans un objet.
 Appliquer 'require' sur un fichier, permet de récupérer la valeur de module.exports, qui est la valeur de retour de la
 fonction.
+Require semble être une fonction globale de node, qui appelle la fonction 'require' spécifique redéfinit dans chaque module.
 
 # NPM
 - gestionnaire de paquets

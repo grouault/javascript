@@ -4,7 +4,7 @@
 module.exports = function(){
 
     // service
-    var peopleService = require('./../../services/people.js');;
+    var peopleService = require('./../../services/people.js');
 
     return {
 

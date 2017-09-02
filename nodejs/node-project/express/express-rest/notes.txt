@@ -1,3 +1,26 @@
+# Lancer le serveur
+node app.js
+
+# urls
+http://localhost:3010/app/people/all
+http://localhost:3010/app/people/1
+
+# curl
+curl -i http://localhost:3010/app/
+curl -i http://localhost:3010/app/people/
+curl -i -X POST http://localhost:3010/app/people/ --data '{name:'Gildas Rouault'}' -H &quot;Content-Type: application/json&quot;
+curl -i -X POST http://localhost:3010/app/people/ --data '{"name":"Gildas Rouault"}' -H 'Content-Type: application/json';
+
+
 /* Express */
 Express est un micro-framework qui présente les fonctonnalité d'un middleware, c'est à dir en ce cas, la partie qui
 va liée une route à une fonction appelée pour cette route spécifique.
+
+- App.js :
+var server = express(); ==> création du serveur
+
+- router.js :
+==> configuration des routes:
+var router = express.Router(); ==> création des routes
+==> A une route, il convient d'ajouter un traitement spécifique.
+==> Chaque route doit être associée au server définit dans app.js
