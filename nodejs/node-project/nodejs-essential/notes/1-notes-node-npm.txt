@@ -39,4 +39,6 @@ Require semble être une fonction globale de node, qui appelle la fonction 'requ
 ==> nécessaire pour gérer un projet d'équipe qui doit être installé sur plusieurs machines.
 - npm permet de gérér le lancement de certains scripts.
 
-
+# npm config proxy
+npm config set proxy http://10.3.64.101:8080
+npm config set https-proxy http://10.3.64.101:8080
