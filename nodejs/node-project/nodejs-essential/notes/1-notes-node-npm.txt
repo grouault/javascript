@@ -40,5 +40,5 @@ Require semble être une fonction globale de node, qui appelle la fonction 'requ
 - npm permet de gérér le lancement de certains scripts.
 
 # npm config proxy
-npm config set proxy http://10.3.64.101:8080
-npm config set https-proxy http://10.3.64.101:8080
+proxy=http://<username>:<pass>@proxyhost:<port>
+https-proxy=http://<uname>:<pass>@proxyhost:<port>
