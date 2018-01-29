@@ -1,0 +1,2 @@
+# Configuration
+# Fichier de config : users/.npmrc
