@@ -6,6 +6,7 @@ var Http = require('http');
 
 - se mettre en écoute des requêtes.
 ==> /faveicon.ico
+
 Tout browser, requête en plus de l'url qu'il traite, l'url faveicon.ico pour récupérer une image à afficher dans le browser.
 ==> Prendre en compte ce cas, avec un traitement spécifique ou via le mécanisme suivant:
 -- https://github.com/expressjs/serve-favicon
@@ -32,3 +33,10 @@ Router :
 # Body-Parser
 ##
 ==> Permet de lire la requête comme un plain-text.
+=======
+Tout browser, requêtre en plus l'url faveicon.ico pour récupérer une image à afficher dans le browser.
+==> Prendre en compte ce cas, avec un traitement spécifique ou via le mécanisme suivant: 
+-- https://github.com/expressjs/serve-favicon
+
+# Middleware ==> body-parser
+

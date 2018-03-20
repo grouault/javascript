@@ -1,0 +1,12 @@
+# Configuration
+# Fichier de config : users/.npmrc
+proxy=http://<username>:<pass>@proxyhost:<port>
+https-proxy=http://<uname>:<pass>@proxyhost:<port>
+npm config list
+npm config set property value ==> npm config set proxy ...
+
+# node-modules - Global
+C:\Users\grouault\AppData\Roaming\npm\node_modules\bower
+
+# installation des dépendance
+npm install -g bower
