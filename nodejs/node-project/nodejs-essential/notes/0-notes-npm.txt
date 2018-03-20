@@ -11,12 +11,6 @@ dependency in the package.json file.
 npm install -g @angular/cli
 ==> C:\Users\grouault\AppData\Roaming\npm
 
-# package.json
-- npm init
-The -y flag means that npm will use only defaults and not prompt you for any options.
-- garder trace des dépendances nécessaires
-- nom du projet, quel est le script principal, run tests...
-
 # grunt
 npm install --save-dev grunt grunt-contrib-watch grunt-execute
 npm install grunt-cli -g

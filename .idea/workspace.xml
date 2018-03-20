@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="769b8169-6651-4c7e-8d76-d1718cdb3699" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/awesome-bucketlist/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/javascript/this/objet-with-function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/10-nodejs-server-create-read-body.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/4-nodejs-server-simple-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/5-nodejs-server-logging.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/6-nodejs-server-routing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/7-nodejs-server-create.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/8-nodejs-server-middleware.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/9-nodejs-server-create-body.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/0-notes-npm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/3-notes-Request-Response.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/cmd-node.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-mysql/mysql-test/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-mysql/mysql-test/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-mysql/mysql-test/init-database.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/awesome-bucketlist/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/how-to-package-json.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flux/Gulpfile.js" afterPath="$PROJECT_DIR$/flux/Gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flux/docs/Testing-Flux-Applications.ko-KR.md" afterPath="$PROJECT_DIR$/flux/docs/Testing-Flux-Applications.ko-KR.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flux/docs/Testing-Flux-Applications.md" afterPath="$PROJECT_DIR$/flux/docs/Testing-Flux-Applications.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/browser-logger/1-browser-logger.js" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/browser-logger/1-browser-logger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/browser-script/1-browser-script-a-b.js" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/browser-script/1-browser-script-a-b.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/1-nodejs-simple-server.js" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/1-nodejs-simple-server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/3-nodejs-server-new-message.js" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/3-nodejs-server-new-message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/2-notes-http-server.txt" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/2-notes-http-server.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react/react-hello-world/src/client/public/bundle.js" afterPath="$PROJECT_DIR$/react/react-hello-world/src/client/public/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/awesome-bucketlist/README.txt" afterPath="$PROJECT_DIR$/angular/awesome-bucketlist/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/0-notes-npm.txt" afterPath="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/0-notes-npm.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,26 +21,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2-notes-http-server.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/2-notes-http-server.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3-notes-Request-Response.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/3-notes-Request-Response.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cmd-node.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/cmd-node.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,35 +44,25 @@
       <file leaf-file-name="0-notes-npm.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/0-notes-npm.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular/awesome-bucketlist/README.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-mysql/mysql-test/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="252">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs/node-project/express/express-rest/README.txt">
+        <entry file="file://$PROJECT_DIR$/angular/awesome-bucketlist/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/awesome-bucketlist/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -123,21 +71,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notes.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs/node-project/express/express-rest/notes.txt">
+      <file leaf-file-name="10-nodejs-server-create-read-body.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/10-nodejs-server-create-read-body.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="59">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-mysql/mysql-test/package.json">
+        <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="how-to-package-json.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/how-to-package-json.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cmd-resume.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/cmd-resume.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular/awesome-bucketlist/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -192,9 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/nodejs/node-project/express/express-rest/app/services/people.js" />
-        <option value="$PROJECT_DIR$/nodejs/node-project/express/express-rest/package.json" />
-        <option value="$PROJECT_DIR$/nodejs/node-project/express/express-rest/app.js" />
         <option value="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/why-require.txt" />
         <option value="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/browser-script/browser-script-1.js" />
         <option value="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/browser-script/browser-script-a.js" />
@@ -240,9 +215,12 @@
         <option value="$PROJECT_DIR$/nodejs/node-project/nodejs-mysql/mysql-test/init-database.sql" />
         <option value="$PROJECT_DIR$/nodejs/node-project/nodejs-mysql/mysql-test/Gruntfile.js" />
         <option value="$PROJECT_DIR$/nodejs/node-project/nodejs-mysql/mysql-test/app.js" />
-        <option value="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/0-notes-npm.txt" />
         <option value="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/cmd-node.txt" />
         <option value="$PROJECT_DIR$/angular/awesome-bucketlist/README.txt" />
+        <option value="$PROJECT_DIR$/angular/awesome-bucketlist/app.js" />
+        <option value="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/0-notes-npm.txt" />
+        <option value="$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/how-to-package-json.txt" />
+        <option value="$PROJECT_DIR$/angular/awesome-bucketlist/package.json" />
       </list>
     </option>
   </component>
@@ -374,32 +352,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="notes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs-essential" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1-node-base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -648,17 +600,18 @@
       <workItem from="1521451975589" duration="113000" />
       <workItem from="1521455592252" duration="1825000" />
       <workItem from="1521476262469" duration="1932000" />
-      <workItem from="1521564272704" duration="1256000" />
+      <workItem from="1521564272704" duration="4035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179032000" />
+    <option name="totallyTimeSpent" value="181811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27157226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27157226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -687,41 +640,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/browser-script/1-browser-script-a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/browser-script/browser-script-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/browser-script/1-browser-script-a-b.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/nodejs-module/0-require/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="114" lean-forward="false" selection-start-line="2" selection-start-column="114" selection-end-line="2" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/nodejs-module/0-require/module-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/1-node-base/nodejs-module/module-example.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -883,13 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/10-nodejs-server-create-read-body.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/8-nodejs-server-middleware.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1009,8 +920,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/2-notes-http-server.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="399">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1023,10 +934,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/1-notes-node-npm.txt">
+    <entry file="file://$PROJECT_DIR$/angular/awesome-bucketlist/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/cmd-resume.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1041,16 +968,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/0-notes-npm.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/how-to-package-json.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/awesome-bucketlist/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="189">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/2-simpleHttp-server/10-nodejs-server-create-read-body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs/node-project/nodejs-essential/notes/1-notes-node-npm.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/awesome-bucketlist/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
       </provider>

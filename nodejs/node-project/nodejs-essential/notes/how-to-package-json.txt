@@ -1,0 +1,9 @@
+ # package.json
+ - npm init
+ The -y flag means that npm will use only defaults and not prompt you for any options.
+ - garder trace des dépendances nécessaires
+ - nom du projet, quel est le script principal, run tests...
+
+ # dependencies
+  The ~ is used to match the most recent minor version (without any breaking changes)
+
