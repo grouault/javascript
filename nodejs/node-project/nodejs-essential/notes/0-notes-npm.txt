@@ -1,0 +1,25 @@
+# npm
+package manager de node.
+
+# installer un package
+npm install name_package
+--save
+==> Afterwards, use npm and install <pkg> --save to install a package and save it as a
+dependency in the package.json file.
+
+# installer un package au niveau global
+npm install -g @angular/cli
+==> C:\Users\grouault\AppData\Roaming\npm
+
+# package.json
+- npm init
+The -y flag means that npm will use only defaults and not prompt you for any options.
+- garder trace des dépendances nécessaires
+- nom du projet, quel est le script principal, run tests...
+
+# grunt
+npm install --save-dev grunt grunt-contrib-watch grunt-execute
+npm install grunt-cli -g
+Grunt is the well-know JavaScript task runner,
+grunt-contrib-watch :/:qruns a pre-defined task whenever a watched file changes,
+grunt-execute can be used to run the node app.js command.

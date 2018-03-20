@@ -378,7 +378,7 @@
 /***/ },
 /* 4 */
 /*!**********************************!*\
-  !*** ./~/object-assign/index.js ***!
+  !*** ./~/object-assign/config.js ***!
   \**********************************/
 /***/ function(module, exports) {
 
@@ -4426,7 +4426,7 @@
 /***/ },
 /* 38 */
 /*!******************************!*\
-  !*** ./~/react-dom/index.js ***!
+  !*** ./~/react-dom/config.js ***!
   \******************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -20936,7 +20936,7 @@
 /***/ },
 /* 168 */
 /*!**********************************!*\
-  !*** ./~/react-mdl/lib/index.js ***!
+  !*** ./~/react-mdl/lib/config.js ***!
   \**********************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -21539,7 +21539,7 @@
 /***/ },
 /* 172 */
 /*!*******************************************!*\
-  !*** ./~/react-mdl/~/classnames/index.js ***!
+  !*** ./~/react-mdl/~/classnames/config.js ***!
   \*******************************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -21695,7 +21695,7 @@
 /***/ },
 /* 174 */
 /*!***************************************!*\
-  !*** ./~/react-mdl/lib/Card/index.js ***!
+  !*** ./~/react-mdl/lib/Card/config.js ***!
   \***************************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -21808,7 +21808,7 @@
 /***/ },
 /* 176 */
 /*!**************************!*\
-  !*** ./~/clamp/index.js ***!
+  !*** ./~/clamp/config.js ***!
   \**************************/
 /***/ function(module, exports) {
 
@@ -22106,7 +22106,7 @@
 /***/ },
 /* 182 */
 /*!********************************************!*\
-  !*** ./~/react-mdl/lib/DataTable/index.js ***!
+  !*** ./~/react-mdl/lib/DataTable/config.js ***!
   \********************************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -22879,7 +22879,7 @@
 /***/ },
 /* 188 */
 /*!*****************************************!*\
-  !*** ./~/react-mdl/lib/Dialog/index.js ***!
+  !*** ./~/react-mdl/lib/Dialog/config.js ***!
   \*****************************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -23203,7 +23203,7 @@
 /***/ },
 /* 193 */
 /*!*****************************************!*\
-  !*** ./~/react-mdl/lib/Footer/index.js ***!
+  !*** ./~/react-mdl/lib/Footer/config.js ***!
   \*****************************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -23861,7 +23861,7 @@
 /***/ },
 /* 203 */
 /*!*****************************************!*\
-  !*** ./~/react-mdl/lib/Layout/index.js ***!
+  !*** ./~/react-mdl/lib/Layout/config.js ***!
   \*****************************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -24532,7 +24532,7 @@
 /***/ },
 /* 213 */
 /*!***************************************!*\
-  !*** ./~/react-mdl/lib/List/index.js ***!
+  !*** ./~/react-mdl/lib/List/config.js ***!
   \***************************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -25631,7 +25631,7 @@
 /***/ },
 /* 225 */
 /*!***************************************!*\
-  !*** ./~/react-mdl/lib/Tabs/index.js ***!
+  !*** ./~/react-mdl/lib/Tabs/config.js ***!
   \***************************************/
 /***/ function(module, exports, __webpack_require__) {
 

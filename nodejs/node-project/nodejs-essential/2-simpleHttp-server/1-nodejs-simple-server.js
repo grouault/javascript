@@ -13,9 +13,9 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-var Http = require( 'http' );
+var Http = require('http');
     
-var server = Http.createServer( );
-server.listen( 8080, function( ) {
+var server = Http.createServer();
+server.listen(8080, function() {
     console.log( 'Listening on port 8080' ); 
 });

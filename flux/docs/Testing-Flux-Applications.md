@@ -20,7 +20,7 @@ For a unit test to operate on a truly isolated _unit_ of the application, we nee
 The first steps toward working with Jest are as follows:
 
 1. Get the module dependencies for the application installed by running `npm install`.
-2. Create a directory `__tests__/` with a test file, in this case TodoStore-test.js
+2. Create a directory `__tests__/` with a test file, in this case TodoStore-bird.js
 3. Run `npm install jest-cli -—save-dev`
 4. Add the following to your package.json
 
@@ -36,7 +36,7 @@ The first steps toward working with Jest are as follows:
 
 Now you're ready to run your tests from the command line with `npm test`.
 
-By default, all modules are mocked, so the only boilerplate we need in TodoStore-test.js is a declarative call to Jest's `dontMock()` method.
+By default, all modules are mocked, so the only boilerplate we need in TodoStore-bird.js is a declarative call to Jest's `dontMock()` method.
 
 ```javascript
 jest.dontMock('TodoStore');
@@ -148,7 +148,7 @@ describe('TodoStore', function() {
 });
 ```
 
-You can take a look at all this code in the [TodoStore's tests on GitHub](https://github.com/facebook/flux/tree/master/examples/flux-todomvc/js/stores/__tests__/TodoStore-test.js) as well. 
+You can take a look at all this code in the [TodoStore's tests on GitHub](https://github.com/facebook/flux/tree/master/examples/flux-todomvc/js/stores/__tests__/TodoStore-bird.js) as well.
 
 
 Mocking Data Derived from Other Stores
@@ -172,7 +172,7 @@ MyOtherStore.getState.mockReturnValue({
 
 Now we have a collection of objects that will come back from MyOtherStore whenever we call MyOtherStore.getState() in our tests.  Any application state can be simulated with a combination of these custom return values and the previously shown technique of working with the store's registered callback.
 
-A brief example of this technique is up on GitHub within the Flux Chat example's [UnreadThreadStore-test.js](https://github.com/facebook/flux/tree/master/examples/flux-chat/js/stores/__tests__/UnreadThreadStore-test.js).
+A brief example of this technique is up on GitHub within the Flux Chat example's [UnreadThreadStore-bird.js](https://github.com/facebook/flux/tree/master/examples/flux-chat/js/stores/__tests__/UnreadThreadStore-bird.js).
 
 For more information about the `mock` property of mocked methods or Jest's ability to provide custom mock values, see Jest's documentation on [mock functions](http://facebook.github.io/jest/docs/mock-functions.html).
 

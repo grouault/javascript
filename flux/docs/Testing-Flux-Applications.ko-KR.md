@@ -148,7 +148,7 @@ describe('TodoStore', function() {
 });
 ```
 
-[TodoStore의 테스트 전체 코드](https://github.com/facebook/flux/tree/master/examples/flux-todomvc/js/stores/__tests__/TodoStore-test.js)는 Github에서 직접 확인할 수 있다.
+[TodoStore의 테스트 전체 코드](https://github.com/facebook/flux/tree/master/examples/flux-todomvc/js/stores/__tests__/TodoStore-bird.js)는 Github에서 직접 확인할 수 있다.
 
 
 다른 Store에서 파생된 데이터 모의하기
@@ -172,7 +172,7 @@ MyOtherStore.getState.mockReturnValue({
 
 이제 테스트에서 MyOtherStore.getState()를 호출하면 언제든 위에서 작성한 객체 컬랙션을 받게 된다. 반환되는 값을 모의하는 방법과 store가 등록한 콜백을 사용하는 기법을 사용하면 어떤 애플리케이션의 상태라도 모의로 테스트 할 수 있다.
 
-이 기법의 예제는 Flux Chat 예제에 포함된 [UnreadThreadStore-test.js](https://github.com/facebook/flux/tree/master/examples/flux-chat/js/stores/__tests__/UnreadThreadStore-test.js) 에서 확인할 수 있다.
+이 기법의 예제는 Flux Chat 예제에 포함된 [UnreadThreadStore-bird.js](https://github.com/facebook/flux/tree/master/examples/flux-chat/js/stores/__tests__/UnreadThreadStore-bird.js) 에서 확인할 수 있다.
 
 `mock` 프로퍼티의 모의 메소드에 대한 정보나 반환 값을 조작하는 방법을 Jest에서 어떻게 지원하는지에 대해 알고 싶다면 Jest 문서의 [mock functions](http://facebook.github.io/jest/docs/mock-functions.html)를 참고하자.
 

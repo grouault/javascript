@@ -31,7 +31,7 @@ const PRODUCTION_HEADER = [
 const paths = {
   dist: './dist/',
   lib: 'lib',
-  entry: './index.js',
+  entry: './config.js',
   entryUtils: './utils.js',
   src: [
     'src/**/*.js',

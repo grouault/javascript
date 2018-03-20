@@ -1,0 +1,25 @@
+/** REQUEST / RESPONSE : method */
+Request :
+---------
+request.url : permet de récupérer ce qui se trouve derrière le host
+    request.url
+request.method: méthode d'appel
+    request.method
+
+// recuperation du paramètre id.
+request.params.id
+
+body-parser:
+------------
+- Récupérer le contenu des requêtes au format texte.
+router.use( BodyParser.text( ) );
+==> request.body
+
+Response:
+---------
+request.writeHead : permet de configurer les en-têtes.
+    response.writeHead( 201, {
+        'Content-Type': 'text/plain',
+        'Location': '/message/' + id
+end : permet d'envoyer un message comme réponse.
+    response.end( message );

@@ -18,18 +18,32 @@ var Http = require( 'http' );
 var PORT = 3010;
 var count = 0;
 function requestHandler( request, response ) {
-    var message;
+    var message,
+        status = 200;
+
     count += 1;
+
+    switch( request.url ) {
+        case '/count':
+            message = count.toString( );
+            break;
+        case '/hello':
+            message = 'World';
+            break;
+        default: 
+            status = 404;
+            message = 'Not Found';
+            break;
+    }
+
     response.writeHead( 201, {
         'Content-Type': 'text/plain'
     });
-        
-    message = 'Visitor count: ' + count + ', path: ' + request.url;
-    console.log('message = ', message);
-    response.end( message );
+    console.log( request.method, request.url, status, message );
+    response.end( message ); 
 }
 
 var server = Http.createServer( requestHandler );
 server.listen( PORT, function( ) {
-    console.log( 'Listening on port ' + PORT );
+    console.log( 'Listening on port : ', PORT );
 });

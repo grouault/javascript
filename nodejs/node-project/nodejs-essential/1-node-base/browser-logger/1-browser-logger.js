@@ -9,7 +9,15 @@ console.log('this(out-1) = ' + this);
         console.log('arguments = ', arguments);
         console.log('console = ', console);
         console.log.apply(console, arguments);
-    }
+    };
+
+    (function () {
+        this.monObjet = {
+            'nom':'titi'
+        };
+        console.log('this(in-2 = )' + this);
+    })();
+
     // mise de l'objet dans le scope-global
     this.Logger = Logger; /* Met dans le contexte global le prototype/classe browser-logger*/
 
@@ -19,3 +27,4 @@ console.log('this.Logger (\'prototype\') = ', Logger);
 var logger = new Logger();
 console.log('logger (\'instance\') = ', logger);
 logger.log("This","is","pretty","cool");
+console.log('mon objet = ', monObjet);
