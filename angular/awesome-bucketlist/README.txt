@@ -4,7 +4,16 @@ Projet Name : awesome-bucketlist
 
 # Architecture
 folder models : back-end
-folder controllers
+folder controllers : everything in between folder models and folders publics
 folder publics : compiled angular code
 
 app.js : entry point for running the Express Server
+
+# Démarrer le projet avec monitoring
+~/awesome-bucketlist>nodemon
+
+# POSTMAN
+[GET]: http://localhost:3000/bucketlist/
+[POST]: httplocalhost:3000/bucketlist/
+[DELETE]: httplocalhost:3000/bucketlist/:id
+

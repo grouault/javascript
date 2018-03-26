@@ -1,0 +1,20 @@
+#Prérequis
+Node et MongoDB sont installés sur le poste
+
+# lancer mongodb
+server : mongod.exe --config="C:\mongodb\mongo.config"
+client: mongo --port 27017
+
+1- install Angular
+npm install -g @angular/cli
+==> installe angular et la commande ng pour piloter angular en ligne de commande.
+
+2- Create Folder Project : awesome-bucketlist
+3- Structurer le projet
+4- initialiser npm : npm init
+5- npm install pour installer les dépendances
+6- configurer et lancer le serveur / monitorer les fichiers
+7- connect server to the database
+8- Définir le controller : router qui répond aux APIs REST
+
+
