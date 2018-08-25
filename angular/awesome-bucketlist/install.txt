@@ -9,6 +9,7 @@ client: mongo --port 27017
 npm install -g @angular/cli
 ==> installe angular et la commande ng pour piloter angular en ligne de commande.
 
+# Back-end
 2- Create Folder Project : awesome-bucketlist
 3- Structurer le projet
 4- initialiser npm : npm init
@@ -16,5 +17,16 @@ npm install -g @angular/cli
 6- configurer et lancer le serveur / monitorer les fichiers
 7- connect server to the database
 8- Définir le controller : router qui répond aux APIs REST
+
+# Front-End : Angular
+- Créer le folder pour Angular:
+~/awesome-bucketlist>ng new angular-src
+
+- Head over to the .angular-cli.json and change the ‘outDir’ to “../public”.
+
+Créer les composants:
+- ~/awesome-bucketlist/angular-src> ng generate component AddList
+Créer les services:
+- ~/awesome-bucketlist/angular-src> ng generate service List
 
 
