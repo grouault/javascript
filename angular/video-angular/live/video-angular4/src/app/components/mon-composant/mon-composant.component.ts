@@ -10,6 +10,8 @@ import {Component} from "@angular/core";
 })
 export class MonComposantComponent {
 
+  private title: string = 'Mon composant';
+
   constructor(){}
 
 }
