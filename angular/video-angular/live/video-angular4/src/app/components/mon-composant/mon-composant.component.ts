@@ -1,9 +1,9 @@
 import {Component} from "@angular/core";
 import {FormsModule} from '@angular/forms';
+import {MonServiceProvider} from "../../services/mon-service.provider";
 /**
  * Created by grouault on 26/08/2018.
  */
-
 @Component({
   selector: 'app-mon-composant',
   templateUrl: './mon-composant.component.html',
@@ -18,16 +18,23 @@ export class MonComposantComponent {
   public error: boolean = false;
   public errorMessage: string = 'Vous devez saisir une valeur';
 
-  public film1: Object = {title: 'Star-wars 4', director: 'Georges Lucas', episode_id: '4'};
-  public film2: Object = {title: 'Star-wars 5', director: 'Georges Lucas', episode_id: '5'};
+  public loading: boolean = false;
 
-  constructor(){}
+
+  constructor(private monService: MonServiceProvider){}
 
   rechercher() {
     this.films = new Array<Object>();
     this.error = false;
+    
     if (this.recherche !== '') {
-      this.films.push(this.film1);
+      this.loading = true;
+      this.monService.rechercher(this.recherche).subscribe(
+        value => this.films = value,
+        error => this.error = error,
+        () => this.loading = false
+      );
+
     } else {
       this.error = true;
     }
@@ -36,8 +43,12 @@ export class MonComposantComponent {
   toutAfficher() {
     this.films = new Array<Object>();
     this.error = false;
-    this.films.push(this.film1);
-    this.films.push(this.film2);
+    this.loading = true;
+    this.monService.rechercherToutFilms().subscribe(
+      value => this.films = value,
+      error => this.error = error,
+      () => this.loading = false
+    );
   }
 
 }

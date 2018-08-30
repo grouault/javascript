@@ -7,7 +7,8 @@
 <div>
   <h3>Résultat de la recherche</h3>
   <div *ngIf="error">Erreur: {{errorMessage}}</div>
-  <ul>
+  <div *ngIf="loading">Traitement en cours!</div>
+  <ul *ngIf="!loading">
     <li *ngFor="let film of films">#{{film.episode_id}} {{film.title}} (par {{film.director}})</li>
   </ul>
 </div>
