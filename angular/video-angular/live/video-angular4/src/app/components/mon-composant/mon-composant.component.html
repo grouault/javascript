@@ -7,8 +7,9 @@
 <div>
   <h3>Résultat de la recherche</h3>
   <div *ngIf="error">Erreur: {{errorMessage}}</div>
+  <div *ngIf="isMessage">Message : {{message}}</div>
   <div *ngIf="loading">Traitement en cours!</div>
   <ul *ngIf="!loading">
-    <li *ngFor="let film of films">#{{film.episode_id}} {{film.title}} (par {{film.director}})</li>
+    <li *ngFor="let film of films">#{{film.episode_id}} <a [routerLink]="['/details', film.episode_id]">{{film.title}}</a> (par {{film.director}})</li>
   </ul>
 </div>

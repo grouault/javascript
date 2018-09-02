@@ -19,7 +19,7 @@ module.directive("bnUserRoles", function(){
       // default comportement.
       element.hide();
       // recuperation attrs.
-      var tUserRoles = $scope.$eval( attrs.bnUserRoles );
+          var tUserRoles = $scope.$eval( attrs.bnUserRoles );
       console.log("[Directive-UserRole] - roles : ", tUserRoles);
       var authorizedRoles = attrs.bnAuthorizedRoles || {};
       console.log("[Directive-UserRole] - authorizedRoles = ", authorizedRoles)
@@ -34,6 +34,7 @@ module.directive("bnUserRoles", function(){
            element.show();
         }
       }
+
     }
   }
 
