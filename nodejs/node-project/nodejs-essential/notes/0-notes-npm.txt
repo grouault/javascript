@@ -1,6 +1,14 @@
 # npm
 package manager de node.
 
+# install and upgrade
+- download msi installer
+- node -version
+- npm -version
+==> Upgrade package
+npm cache clean
+npm update -g
+
 # installer un package
 npm install name_package
 --save
