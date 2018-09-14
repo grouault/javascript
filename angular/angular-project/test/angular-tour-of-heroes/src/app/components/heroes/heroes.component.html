@@ -28,3 +28,12 @@
     </label>
   </div>
 </div>
+<div class="bloc-special">
+  <div class="special"
+       [class.special]="!isSpecial">This one is not so special
+  </div>
+  <div>
+    <button (click)="changeSpecial()">change special</button>
+  </div>
+</div>
+

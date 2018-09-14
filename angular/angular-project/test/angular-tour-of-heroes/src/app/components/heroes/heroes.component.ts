@@ -9,7 +9,8 @@ import {HEROES} from "../../mocks/mock-heroes";
 })
 export class HeroesComponent implements OnInit {
 
-  selectedHero: Hero;
+  public selectedHero: Hero;
+  public isSpecial: boolean = false;
 
   hero: Hero = {
     id: 1,
@@ -26,6 +27,12 @@ export class HeroesComponent implements OnInit {
 
   onSelect(hero: Hero): void{
     this.selectedHero = hero;
+  }
+
+  changeSpecial(): void{
+    console.log('[changeSpecial] - [debut] - isSpecial = ', this.isSpecial);
+    this.isSpecial = !this.isSpecial;
+    console.log('[changeSpecial] - [fin] - isSpecial = ', this.isSpecial);
   }
 
 }
