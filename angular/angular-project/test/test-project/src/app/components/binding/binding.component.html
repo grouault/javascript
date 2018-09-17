@@ -1,0 +1,27 @@
+<h2>Bindign test</h2>
+<ul>
+  <!-- one way binding. -->
+  <li>
+    <div>
+      One way binding, isSpecial = {{isSpecial}}
+    </div>
+  </li>
+  <li>
+    <div>
+      Two way binding, isSpecial :
+      <select name="selectSpecial" [(ngModel)]="isSpecial">
+        <option [ngValue]="true">true</option>
+        <option [ngValue]="false">false</option>
+      </select>
+    </div>
+  </li>
+  <li>
+    <div>
+      Class binding&nbsp;<span [class.special]="isSpecial">isSpecial</span>
+      <button (click)="changeSpecial()">isSpecial</button>
+    </div>
+
+  </li>
+</ul>
+
+

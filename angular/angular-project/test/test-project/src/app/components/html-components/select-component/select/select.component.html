@@ -1,0 +1,21 @@
+<h2>Angular Select</h2>
+<ul>
+  <li>
+    <div>
+      <div>Select Option Dropdown</div>
+      <div>
+        <form #userForm="ngForm" (submit)="submitUser(userForm)">
+          <select name="profile" required [(ngModel)]="user.profile" #profile="ngModel">
+            <option [ngValue]="null" disabled>Choose your profile</option>
+            <option [ngValue]="null"></option>
+            <option *ngFor="let profile of allProfiles" [ngValue]="profile">{{profile.prName}}</option>
+          </select>
+          <button>Submit</button>
+        </form>
+        <div>
+          user.profile = {{user.profile}}
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
